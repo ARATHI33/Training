@@ -22,24 +22,3 @@ void insertionSort(int arr[], int N) {
     }
 }
 
-int main() {
-    int arr[] = { 12, 11, 13, 5, 6 };
-    int N = sizeof(arr) / sizeof(arr[0]);
-
-    printf("Unsorted array: ");
-    for (int i = 0; i < N; i++) {
-        printf("%d ", arr[i]);
-    }
-    printf("\n");
-
-    // Calling insertion sort on array arr
-    insertionSort(arr, N);
-
-    printf("Sorted array: ");
-    for (int i = 0; i < N; i++) {
-        printf("%d ", arr[i]);
-    }
-    printf("\n");
-
-    return 0;
-}
